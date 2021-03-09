@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'font-family: 'Roboto', sans-serif;';
+}
+
+nav {
+    position: fixed;
+    z-index: 100;
+    height: 8vh;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+}
+
+.social__items {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 30px;
+    z-index: 10;
+}
+
+.screen {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.screen__bg img {
+    width: 110vw;
+    height: 110vh;
+    filter: brightness(0.6);
+}
+
+.screen__rock {
+    position: absolute !important;
+    left: 10vw !important;
+    top: 20vh !important;
+}
+
+.screen__rock img {
+    width: 40%;
+    filter: brightness(0.5);
+}
+
+.screen__earth img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 34vw;
+    top: 25vh;
+    z-index: 1;
+    filter: brightness(0.7);
+}
+
+.screen__text h1 {
+    position: absolute;
+    font-size: 5vw;
+    color: #fff;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 45vh;
+    left: 32vw;
+    z-index: 5;
+    text-transform: uppercase;
+}
+
+.screen__mid img {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 30vh;
+    filter: brightness(0.8);
+    left: -120px;
+    bottom: 0px;
+}
+
+.screen__fore img {
+    position: absolute;
+    width: 400px;
+    height: 100vh;
+    z-index: 3;
+    filter: brightness(0.5);
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
