@@ -2,6 +2,6 @@
 
 ### Animations
 
-[TweenMax](https://greensock.com/tweenmax/)
-[Swiper](https://swiperjs.com/get-started)
-[Parallax](https://github.com/wagerfield/parallax)
+1. [TweenMax](https://greensock.com/tweenmax/)
+2. [Swiper](https://swiperjs.com/get-started)
+3. [Parallax](https://github.com/wagerfield/parallax)
